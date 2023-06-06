@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 class="animated-text">Ascii art web</h1>
+    <form method="POST" action="/">
+            <div class="image">
+                <div class="responsive-textarea" align="center" >
+                     <textarea name="entree" cols="50" rows="10" text-align="left" class="responsive-textarea" placeholder="enter your text ..." required></textarea><br>
+                </div>  
+            </div>
+    <section>
+        <br>
+       <input type="radio" name="web" value="standard" checked>standard <br>
+       <input type="radio" name="web" value="shadow">shadow <br>
+       <input type="radio" name="web" value="thinkertoy">thinkertoy <br>
+       <br>
+       <button>submit</button>
+    </section>
+    <br>
+    <div class="responsive-textarea" align="center">
+    <textarea name="entr" wrap="off" cols="150" rows="13" class="responsive-textarea">{{.Output}}</textarea>
+    </div>
+    </form>
+</body>
+</html>

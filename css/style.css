@@ -1,0 +1,60 @@
+body{   
+     /* background: #f0f; */
+}
+textarea{
+    text-align: center;
+}
+h1{
+    text-align: center; 
+}
+section{
+    text-align: center; 
+}
+.centered-text{
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.responsive-textarea {
+    max-width: 100%;
+  }
+  .animated-text{
+    font-size: 40px;
+    color: black;
+    animation : Scroll 10s linear infinite;
+}
+    button{
+    color: black;
+  }
+  /* @keyframes Scroll{ */
+    /* 0%{
+        transform: translateX(-50%);
+    } */
+   
+   
+    /* 100%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
+  } */
+  
+  @media (max-width: 768px) {
+    .responsive-textarea {
+      height: 100px;
+    }
+  }
+a{
+    text-align: center;
+    position: absolute;
+    color: black;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
